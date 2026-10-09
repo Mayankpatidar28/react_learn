@@ -1,0 +1,27 @@
+p{
+    font-size: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 60p;
+    z-index: 2;
+    margin: 40px 50px 50px 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}   
+.nm{
+    color: green;
+    margin: 50px 50px 100px 50px;     
+}
+.ag{
+    color: yellow;
+    margin: 50px 50px 100px 50px;  
+}   
