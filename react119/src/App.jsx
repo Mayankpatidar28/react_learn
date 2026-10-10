@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './home'
 
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
@@ -15,8 +14,10 @@ function App() {
    <div  className="hero-banner">
       <h1>My React App</h1>
       <p>**</p>  
+
+      <h1 className='text-6xl text-red-500'>Hello  tailwind</h1>
     </div>
-    <Home data={{name,age}}   />  
+    <Home data={{name,age}}   />  /// ud in {} we give name value to child  or make a js object
     </>   
   )
 }

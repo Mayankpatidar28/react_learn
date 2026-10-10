@@ -1,19 +1,23 @@
 import React from "react";
+import About from "./About1";    
 import "./home.css"
 
-/*
+
+
+
 const home = ( props ) => {
     return (
         <div>
-            <h1>child</h1>
+            <h1>Home </h1>
             <p className="nm">{props.data.name}</p>
             <p className="ag">{props.data.age}</p>
+            <About data={{name:props.data.name, age:props.data.age}} />
         </div>
     )
 }
 
 export default home;  
-*/
+
 /*
 const home = ( {...props}) =>{
     return(
@@ -29,7 +33,7 @@ const home = ( {...props}) =>{
 */
 
 
-    
+ /*   
 const home = ( {data} ) =>{
     return(
         <div>
@@ -41,3 +45,4 @@ const home = ( {data} ) =>{
 
 }
     export default home;
+    */
